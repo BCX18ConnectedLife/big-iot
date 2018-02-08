@@ -1,4 +1,4 @@
-# BIG IoT Documentation and Example Code
+# BIG IoT Example Code and Documentation
 
 This repository includes documentation and example code for using the BIG IoT Marketplace and SDK.
 
@@ -23,7 +23,7 @@ This repository includes documentation and example code for using the BIG IoT Ma
 
 ## Developer Guide 
 
-- **Java Example project for [download](https://github.com/BIG-IoT/example-projects):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradle run`) or import it into your IDE.
+**Java Example project for [download](https://github.com/BIG-IoT/example-projects):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradle run`) or import it into your IDE.
 
 ### How to develop a BIG IoT Consumer?
 
@@ -36,6 +36,10 @@ This repository includes documentation and example code for using the BIG IoT Ma
 - Detailed [Java developer tutorial for a Provider](https://big-iot.github.io/consumerPerspective/) application
 
 Further Java example applications for consumers and providers are available [here](https://github.com/BIG-IoT/example-projects/tree/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples).
+
+### Download SDK
+
+Information on how to download and us our SDK is provided [here](https://big-iot.github.io/download/).
 
 
 ## Background Information
