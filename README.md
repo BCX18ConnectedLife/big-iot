@@ -39,7 +39,7 @@ Further Java example applications for consumers and providers are available [her
 
 ### Download SDK
 
-Information on how to download and us our SDK is provided [here](https://big-iot.github.io/download/).
+Information on how to [download](https://big-iot.github.io/download/) and us our SDK is provided [here](https://big-iot.github.io/download/).
 
 
 ## Background Information
