@@ -6,8 +6,9 @@ This repository includes documentation and example code for using the BIG IoT Ma
 ## Why use BIG IoT?
 
 1. The [BIG IoT Marketplace](https://market.big-iot.org/) gives you: ![logo]()
-   * **access to many relevant [data sources]()**
+   * **easy access to many relevant data sources - see [here](https://github.com/BIG-IoT/BIG-IoT.github.io/blob/master/bcxDataOfferings.md)**
    * **allows you to monetize your data/results** (i.e. this could be part of your business model for your solution)
+      * Disclaimer: Charging and billing functionality is not yet implemented :smilie:
 2. The BIG IoT SDKs allow you to offer or consume data from other stakeholder **with a few lines of code** (see examples below).
 
 **Related technologies:**
@@ -27,7 +28,7 @@ This repository includes documentation and example code for using the BIG IoT Ma
 
 ### How to develop a BIG IoT Consumer?
 
-- **Simple Consumer example** (full example is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleConsumerSubscriptionById.java)):
+- **Simple Consumer example for accessing a known Offering** (full example code is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleConsumerSubscriptionById.java)):
 ```java
 // Initialize Consumer with Consumer ID and marketplace URL
 Consumer consumer = new Consumer("Your Consumer ID - get it from Marketplace", "https://market.big-iot.org")
@@ -44,11 +45,12 @@ AccessParameters accessParameters = AccessParameters.create();
 AccessResponse response = offering.accessOneTime(accessParameters).get();
 ```
 - **[Java Example Consumer](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer):** This is part of the example project above. 
-- Detailed [Java developer tutorial for a Consumer](https://big-iot.github.io/provPerspective/) application
+- **[Complete Java Consumer Project template](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer):** This is part of the GitHub example project above and **contains everything to get started!**
+- Detailed [Java developer tutorial for a Consumer](https://big-iot.github.io/providerPerspective/) application
 
 ### How to develop a BIG IoT Provider?
 
-- **Simple Provider example** (full example is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleProviderWithMarketplaceOfferingDescription.java)):
+- **Simple Provider example - register a new Offering on the Marketplace** (full example code is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleProviderWithMarketplaceOfferingDescription.java)):
 ```java
 // Initialize provider with provider id and Marketplace URI
 ProviderSpark provider = ProviderSpark.create("Your Provider ID - get it from Marketplace", 
@@ -67,8 +69,8 @@ Endpoints endpoints = Endpoints.create(offeringDescription)
 // Register the offering - from now on it will be discoverable, subscribable and accessible to consumers
 provider.register(offeringDescription, endpoints);
 ```
-- **[Java Example Provider](https://github.com/BIG-IoT/example-projects/tree/master/java-example-provider):** This is part of the example project above. 
-- Detailed [Java developer tutorial for a Provider](https://big-iot.github.io/consumerPerspective/) application
+- **[Complete Java Provider Project template](https://github.com/BIG-IoT/example-projects/tree/master/java-example-provider):** This is part of the GitHub example project above and **contains everything to get started!**
+- Detailed [Java developer tutorial for a Provider](https://big-iot.github.io/providerPerspective/) application
 
 Further Java example applications for consumers and providers are available [here](https://github.com/BIG-IoT/example-projects/tree/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples).
 
