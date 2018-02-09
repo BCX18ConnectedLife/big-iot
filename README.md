@@ -17,7 +17,7 @@
 ## BIG IoT Marketplace 
 
 - **Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)**
-- **BCX Marketplace URI: [https://market.internal-big-iot.org/]()**
+- **BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)**
 
 
 ## Developer Guide 
