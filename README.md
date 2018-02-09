@@ -29,20 +29,20 @@ This repository includes documentation and example code for using the BIG IoT Ma
 
 - **Simple Consumer example** (full example is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleConsumerSubscriptionById.java)):
 ```java
-        // Initialize Consumer with Consumer ID and marketplace URL
-        Consumer consumer = new Consumer("Your Consumer ID - get it from Marketplace", "https://market.big-iot.org")
-               .authenticate("Your Consumer SECRET - get it from Marketplace");
-                                    
-        // Subscribe to Offering by OfferingId
-        Offering offering = consumer.subscribeByOfferingId("OfferingId - find it on Marketplace").get();
+// Initialize Consumer with Consumer ID and marketplace URL
+Consumer consumer = new Consumer("Your Consumer ID - get it from Marketplace", "https://market.big-iot.org")
+       .authenticate("Your Consumer SECRET - get it from Marketplace");
 
-        // Define Input Data as access parameters
-        AccessParameters accessParameters = AccessParameters.create();
-               // e.g. .addRdfTypeValue("schema:latitude", 42.0)
-               //      .addRdfTypeValue("schema:longitude", 9.0);
-        
-        // Access Offering one-time with Access Parameters (input data) --> response includes JSON results
-        AccessResponse response = offering.accessOneTime(accessParameters).get();
+// Subscribe to Offering by OfferingId
+Offering offering = consumer.subscribeByOfferingId("OfferingId - find it on Marketplace").get();
+
+// Define Input Data as access parameters
+AccessParameters accessParameters = AccessParameters.create();
+       // e.g. .addRdfTypeValue("schema:latitude", 42.0)
+       //      .addRdfTypeValue("schema:longitude", 9.0);
+
+// Access Offering one-time with Access Parameters (input data) --> response includes JSON results
+AccessResponse response = offering.accessOneTime(accessParameters).get();
 ```
 - **[Java Example Consumer](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer):** This is part of the example project above. 
 - Detailed [Java developer tutorial for a Consumer](https://big-iot.github.io/provPerspective/) application
@@ -51,21 +51,22 @@ This repository includes documentation and example code for using the BIG IoT Ma
 
 - **Simple Provider example** (full example is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleProviderWithMarketplaceOfferingDescription.java)):
 ```java
-        // Initialize provider with provider id and Marketplace URI
-        ProviderSpark provider = ProviderSpark.create("Your Provider ID - get it from Marketplace", 
-                                                      "https://market.big-iot.org", "IP address of your node", 6789)
-                .authenticate("Your Consumer SECRET - get it from Marketplace");
+// Initialize provider with provider id and Marketplace URI
+ProviderSpark provider = ProviderSpark.create("Your Provider ID - get it from Marketplace", 
+                                              "https://market.big-iot.org", "IP address of your node", 6789)
+        .authenticate("Your Consumer SECRET - get it from Marketplace");
 
-        // Create an Offering Description based on a stored descripton on the Marketplace
-        RegistrableOfferingDescription offeringDescription = 
-                provider.createOfferingDescriptionFromOfferingId("OfferingId - get it from Marketplace");
-                        
-        // Define an Endpoint for your Offering
-        Endpoints endpoints = Endpoints.create(offeringDescription)
-                // provide an AccessRequestHandler - it is called each time a Consmer accesses your offering
-                .withAccessRequestHandler(accessCallback);
+// Create an Offering Description based on a stored descripton on the Marketplace
+RegistrableOfferingDescription offeringDescription = 
+        provider.createOfferingDescriptionFromOfferingId("OfferingId - get it from Marketplace");
 
-        provider.register(offeringDescription, endpoints);
+// Define an Endpoint for your Offering
+Endpoints endpoints = Endpoints.create(offeringDescription)
+        // provide an AccessRequestHandler - it is called each time a Consmer accesses your offering
+        .withAccessRequestHandler(accessCallback);
+
+// Register the offering - from now on it will be discoverable, subscribable and accessible to consumers
+provider.register(offeringDescription, endpoints);
 ```
 - **[Java Example Provider](https://github.com/BIG-IoT/example-projects/tree/master/java-example-provider):** This is part of the example project above. 
 - Detailed [Java developer tutorial for a Provider](https://big-iot.github.io/consumerPerspective/) application
