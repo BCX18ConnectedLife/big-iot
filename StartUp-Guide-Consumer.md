@@ -22,8 +22,6 @@
 - Click on `+Consumer`
 - Enter a name for your new Consumer instance (e.g. "SmartCityDashboard")
 
-NOTE: You can copy the Consumer ID and SECRET by when you click on the new Consumer instance and then `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard`)
-
 ### 4. Step: Find Offerings
 
 Create a new Offering Query
@@ -36,23 +34,23 @@ Create a new Offering Query
   - Note: You might need to `refresh` your browser or `reload` the page to get the update
 - Explore the Offerings
 
-NOTE: You can copy an Offering ID when you click on the Offering and then `Copy ID to Clipboard`.
-
 ### 5. Download Java Template Project
 
 `git clone https://github.com/BCX18ConnectedLife/big-iot.git`
 
 ### 6. Import the Project into your IDE 
 
-- Eclipse IDE:
-  - File --> Imprt --> Gradle Project 
-    NOTE: If you don't see the Gradle Project import option, you first have to install the Eclipse grade tooling (`buildship`) - see [here](http://www.vogella.com/tutorials/EclipseGradle/article.html)
+- For Eclipse IDE:
+  - Go to `File` -> `Import` -> `Gradle Project`
+    - NOTE: If you don't see the Gradle Project import option, you first have to install the Eclipse gradle tooling (`buildship`) - see [here](http://www.vogella.com/tutorials/EclipseGradle/article.html) for further information
   - Select the consumer template project directory: `big-iot/java-template-consumer`
   - Import the project
   
 ### 7. Update Properties Files 
 
-- Update your Consumer ID and Secret in the `example.properties` file (see route directory of the template project)
+Update your Consumer ID and Secret in the `example.properties` file (see route directory of the template project)
+
+NOTE: You can copy the Consumer ID and SECRET when you open your newly created Consumer instance on the Web Portal, and then click on `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard` (top right).
 
 ### 8. Edit the Example Consumer Java application 
 
@@ -62,17 +60,20 @@ NOTE: You can copy an Offering ID when you click on the Offering and then `Copy 
 consumer.subscribeByOfferingId("... include the Offering ID that you want to subscribe to and access ...").get();
 ```
 
+NOTE: You can copy an Offering ID when you open the Offering on the Web Portal, and then click on `Copy ID to Clipboard` (top right).
+
+
 ### 9. Execute the Consumer application 
 
- - From the command line: `./gradlew run` from the root directoy of the project
- - From the IDE 
+- From the command line: Use `./gradlew run` in the root directoy of the project
+- From Eclipse IDE: Go to `Run` -> `Run` and then select your consumer application
 
 
 ## Developer Guide 
 
 ### How to develop a BIG IoT Consumer?
 
-- A _detailed_ Java **developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
+- A **_detailed_ developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
 
 - **Simple Consumer example for accessing a known Offering** (full example code is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleConsumerSubscriptionById.java)):
 ```java
@@ -96,7 +97,7 @@ AccessResponse response = offering.accessOneTime(accessParameters).get();
 
 ### Download SDK
 
-Information on how to [download](https://big-iot.github.io/download/) and use our SDK directly in your porject is provided [here](https://big-iot.github.io/download/).
+Information on how to [download](https://big-iot.github.io/download/) and use our SDK directly in your project is provided [here](https://big-iot.github.io/download/).
 
 
 ## Background Information
