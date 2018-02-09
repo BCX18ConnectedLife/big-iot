@@ -4,9 +4,9 @@
 
 ### 1. Step: Login on Marketplace
 
-- **Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)**
-- **BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)**
-
+- Select the BIG IoT Marketplace you want to use:
+  - Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)
+  - BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)
 - Click on `Login`
 - You can use your GitHub or Google account to sign in
 
