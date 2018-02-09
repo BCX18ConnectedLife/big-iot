@@ -44,9 +44,9 @@ AccessParameters accessParameters = AccessParameters.create();
 // Access Offering one-time with Access Parameters (input data) --> response includes JSON results
 AccessResponse response = offering.accessOneTime(accessParameters).get();
 ```
-- **[Complete Java Consumer Project template](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer):** 
-   - Note: This is part of the GitHub example project above and **contains everything to get started!**
-- Detailed [Java developer tutorial for a Consumer](https://big-iot.github.io/consumerPerspective/) application
+- **To get stated**, you can **use** our [**Java Example Consumer project**](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BIG-IoT/example-projects) mentioned above and **contains everything** to get started!
+- A _detailed Java **developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
+
 
 ### How to develop a BIG IoT Provider?
 
@@ -69,15 +69,14 @@ Endpoints endpoints = Endpoints.create(offeringDescription)
 // Register the offering - from now on it will be discoverable, subscribable and accessible to consumers
 provider.register(offeringDescription, endpoints);
 ```
-- **[Complete Java Provider Project template](https://github.com/BIG-IoT/example-projects/tree/master/java-example-provider):** 
-   - Note: This is part of the GitHub example project above and **contains everything to get started!**
-- Detailed [Java developer tutorial for a Provider](https://big-iot.github.io/providerPerspective/) application
+- **To get stated**, you can **use** our [**Java Example Provider project**](https://github.com/BIG-IoT/example-projects/tree/master/java-example-provider) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BIG-IoT/example-projects) mentioned above and **contains everything** to get started!
+- A _detailed Java **developer tutorial** for a Provider_ can be found [here](https://big-iot.github.io/providerPerspective/)
 
 Further Java example applications for consumers and providers are available [here](https://github.com/BIG-IoT/example-projects/tree/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples).
 
 ### Download SDK
 
-Information on how to [download](https://big-iot.github.io/download/) and us our SDK is provided [here](https://big-iot.github.io/download/).
+Information on how to [download](https://big-iot.github.io/download/) and use our SDK directly in your porject is provided [here](https://big-iot.github.io/download/).
 
 
 ## Background Information
