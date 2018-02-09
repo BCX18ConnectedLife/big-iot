@@ -19,10 +19,14 @@
 - **Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)**
 - **BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)**
 
+## Startup Guides (with step-by-step instructions)
+
+- For a BIG IoT [Consumer application (Java)](/StartUp-Guide-Consumer.md)
+- For a BIG IoT [Provider application (Java)](/StartUp-Guide-Provider.md)
 
 ## Developer Guide 
 
-**Java Example project for [download](https://github.com/BIG-IoT/example-projects):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradle run`) or import it into your IDE.
+**Java Example project for [download](https://github.com/BIG-IoT/example-projects):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradlew run`) or import it into your IDE.
 
 ### How to develop a BIG IoT Consumer?
 
@@ -42,7 +46,7 @@ AccessParameters accessParameters = AccessParameters.create();
 // Access Offering one-time with Access Parameters (input data) --> response includes JSON results
 AccessResponse response = offering.accessOneTime(accessParameters).get();
 ```
-- **To get stated**, you can **use** our [**Java Example Consumer project**](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BIG-IoT/example-projects) mentioned above and **contains everything** to get started!
+- **To get stated**, you can **use** our [**Java Example Consumer project**](https://github.com/BCX18ConnectedLife/big-iot/tree/master/java-template-consumer) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BCX18ConnectedLife/big-iot) mentioned above and **contains everything** to get started!
 - A _detailed_ Java **developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
 
 
@@ -67,7 +71,7 @@ Endpoints endpoints = Endpoints.create(offeringDescription)
 // Register the offering - from now on it will be discoverable, subscribable and accessible to consumers
 provider.register(offeringDescription, endpoints);
 ```
-- **To get stated**, you can **use** our [**Java Example Provider project**](https://github.com/BIG-IoT/example-projects/tree/master/java-example-provider) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BIG-IoT/example-projects) mentioned above and **contains everything** to get started!
+- **To get stated**, you can **use** our [**Java Example Provider project**](https://github.com/BCX18ConnectedLife/big-iot/tree/master/java-template-provider) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BCX18ConnectedLife/big-iot) mentioned above and **contains everything** to get started!
 - A _detailed_ Java **developer tutorial** for a Provider can be found [here](https://big-iot.github.io/providerPerspective/)
 
 Further Java example applications for consumers and providers are available [here](https://github.com/BIG-IoT/example-projects/tree/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples).
