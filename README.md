@@ -9,11 +9,11 @@
       * Disclaimer: Charging and billing functionality is not yet implemented :smiley:
 2. The BIG IoT SDKs allow you to **offer and consume data** from other stakeholder **with a few lines of code** (see examples below).
 
-#### Overall Picture
+### Overall Picture
 
-![BIG-IoT Overall Picture](BIG-IoT_OverallPicture.png)
+![BIG-IoT Overall Picture](/images/BIG-IoT_OverallPicture.png)
 
-#### Related technologies:
+### Related technologies:
 
 - Any data from IoT devicde connected to Bosch IoT Things can be directly offered on the BIG IoT Marketplace using the [Bosch Things-Marketplace Connector service]().
 - [FlowHub]() provides a ready to use building block to offer data from IoT devices (including those connected to the Bosch IoT Hub) on the Marketplace.
