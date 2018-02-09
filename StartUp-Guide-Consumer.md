@@ -27,16 +27,16 @@ NOTE: You can copy the Consumer ID and SECRET by when you click on the new Consu
 ### 4. Step: Find Offerings
 
 Create a new Offering Query
-- Click on `MyConsumers`
-- Select your new Consumer instance
-- Click on `+OfferingQuery`
-- Give you OfferingQuery a name
+- Click on `MyConsumers` and select your new Consumer instance
+- Click on `+OfferingQuery` and give your OfferingQuery a name
 - Define a semantic category
-- Optional: define a region, a time period, a license, a price model, etc. 
+- Optionally: define a region, a time period, a license, a price model, etc. 
 - Save the OfferingQuery
-- Scroll down - on the bottom you will see matching Offerings for your query
+- Scroll down - to the bottom of your Offering Query. There you will see all matching Offerings
   - Note: You might need to `refresh` your browser or `reload` the page to get the update
 - Explore the Offerings
+
+NOTE: You can copy an Offering ID when you click on the Offering and then `Copy ID to Clipboard`.
 
 ### 5. Download Java Template Project
 
@@ -72,6 +72,8 @@ consumer.subscribeByOfferingId("... include the Offering ID that you want to sub
 
 ### How to develop a BIG IoT Consumer?
 
+- A _detailed_ Java **developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
+
 - **Simple Consumer example for accessing a known Offering** (full example code is available [here](https://github.com/BIG-IoT/example-projects/blob/master/more-java-examples/src/main/java/org/eclipse/bigiot/lib/examples/ExampleConsumerSubscriptionById.java)):
 ```java
 // Initialize Consumer with Consumer ID and marketplace URL
@@ -88,8 +90,6 @@ AccessParameters accessParameters = AccessParameters.create();
 // Access Offering one-time with Access Parameters (input data) --> response includes JSON results
 AccessResponse response = offering.accessOneTime(accessParameters).get();
 ```
-
-- A _detailed_ Java **developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
 
 - **To get stated**, you can **use** our [**Java Example Consumer project**](https://github.com/BCX18ConnectedLife/big-iot/tree/master/java-template-consumer) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BCX18ConnectedLife/big-iot) mentioned above and **contains everything** to get started!
 
