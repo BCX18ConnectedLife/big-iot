@@ -44,7 +44,6 @@ AccessParameters accessParameters = AccessParameters.create();
 // Access Offering one-time with Access Parameters (input data) --> response includes JSON results
 AccessResponse response = offering.accessOneTime(accessParameters).get();
 ```
-- **[Java Example Consumer](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer):** This is part of the example project above. 
 - **[Complete Java Consumer Project template](https://github.com/BIG-IoT/example-projects/tree/master/java-example-consumer):** This is part of the GitHub example project above and **contains everything to get started!**
 - Detailed [Java developer tutorial for a Consumer](https://big-iot.github.io/providerPerspective/) application
 
