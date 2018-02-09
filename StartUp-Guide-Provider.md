@@ -13,7 +13,7 @@
 ### 2. Step: Create new Organization on Marketplace
 
 - The first time you login on the Marketplace with your account, you can create a new Organization 
-- Click on `New Organization` (bottom left)
+- Click on `New Organization` (see bottom left)
 - Enter a name for your new Organization
 
 ### 3. Step: Create new Provider instance
@@ -27,13 +27,13 @@
 - Click on `MyProviders` and select your new Provider instance
 - Click on `+Offering` and give your Offering a name
 - Define a _Region_ (i.e. bounding box) for your data
-  - NOTE: If the data are not assiciated to a geographic area, you can also leave the region empty
-- Select a semantic category for the data you want to offer (try to use sub-categories if available)
+  - NOTE: If the data are not associated with a geographic area, you can also leave the region empty
+- Select a semantic _Category_ for the data you want to offer (try to use also sub-categories if available)
   - NOTE: If none of the semantic categories match, use the category `Miscellaneous`
 - Define the _Input_ and _Output Data_ for your Offering
-  - Input data are those that a Consumer will add to the access requst. These are usually used to filter/restrict the output data
-  - Output data are those that your Provider will return when a consumer accesse it
-  - Click on the button `+` and then select from the drop-down box a semantic data type for the output data
+  - Input data are those that a Consumer, who accesses your Offering, will add to the access requst. These are usually used to filter/restrict the output data on your Provider end
+  - Output data are those that your Provider will return when a Consumer accesses the Offering
+  - Click on the button `+` and then select from the drop-down box a semantic `Data Type` for the output data
     - NOTE: If none of the recommended types match your needs, you can also propose a new data type; simply enter the name of the new proposed type. Once a new name is detected, the marketplace will also ask for an URI as a unique identify of your type
   - After you have defined the data type, you need to provide the JSON property name that your Provider will use in the JSON  response sent upon an access request 
   - Repeat these steps until you have defined all Input and Output data fields.
@@ -57,7 +57,7 @@
 
 Update your Provider ID and Secret in the `example.properties` file (see root directory of the template project)
 
-NOTE: You can copy the Provider ID and SECRET when you open your newly created Provider instance on the Web Portal, and then click on `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard` (top right).
+NOTE: You can copy the Provider ID and SECRET when you open your newly created Provider instance on the Web Portal, and then click on `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard` (see top right).
 
 ### 8. Edit the Example Provider Java application 
 
@@ -67,14 +67,14 @@ NOTE: You can copy the Provider ID and SECRET when you open your newly created P
 RegistrableOfferingDescription offeringDescription = 
 	            provider.createOfferingDescriptionFromOfferingId("... include your Offering ID here ...");
 ```
-- Update the `AccessRequestHandler accessCallback` based on your offering. In the response, return a JSONArray or JSONObject that is conform to your offering description.
+- Update the `AccessRequestHandler accessCallback` based on your Offering. In the response, return a JSONArray or JSONObject that is conform to your offering description.
 ```java
 return BigIotHttpResponse.okay().withBody(jsonArray).asJsonType();
 ```
 
-NOTE: You can copy an Offering ID when you open the Offering on the Web Portal, and then click on `Copy ID to Clipboard` (top right).
+NOTE: You can copy the Offering ID when you open the Offering on the Web Portal, and then click on `Copy ID to Clipboard` (see top right).
 
-### 9. Execute the Provider application 
+### 9. Run the Provider application 
 
 - From the command line: Use `./gradlew run` in the root directoy of the project
 - From Eclipse IDE: Go to `Run` -> `Run` and then select your provider application
