@@ -7,7 +7,7 @@
    * **easy access to many relevant data sources - see [here](https://github.com/BIG-IoT/BIG-IoT.github.io/blob/master/bcxDataOfferings.md)**
    * **allows you to monetize your data/results** (i.e. this could be part of your business model for your solution)
       * Disclaimer: Charging and billing functionality is not yet implemented :smiley:
-2. The BIG IoT SDKs allow you to offer or consume data from other stakeholder **with a few lines of code** (see examples below).
+2. The BIG IoT SDKs allow you to **offer and consume data** from other stakeholder **with a few lines of code** (see examples below).
 
 **Related technologies:**
 - Any data from IoT devicde connected to Bosch IoT Things can be directly offered on the BIG IoT Marketplace using the [Bosch Things-Marketplace Connector service]().
@@ -16,8 +16,8 @@
 
 ## BIG IoT Marketplace 
 
-- **Public BIG IoT Marketplace: [https://market.big-iot.org/](https://market.big-iot.org/)**
-- **BCX Marketplace: [https://to-be-defined/]()**
+- **Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)**
+- **BCX Marketplace URI: [https://to-be-defined/]()**
 
 
 ## Developer Guide 
