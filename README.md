@@ -38,8 +38,7 @@ Offering offering = consumer.subscribeByOfferingId("OfferingId - find it on Mark
 
 // Define Input Data as access parameters
 AccessParameters accessParameters = AccessParameters.create();
-       // e.g. .addRdfTypeValue("schema:latitude", 42.0)
-       //      .addRdfTypeValue("schema:longitude", 9.0);
+       // e.g. .addRdfTypeValue("schema:latitude", 42.0).addRdfTypeValue("schema:longitude", 9.0);
 
 // Access Offering one-time with Access Parameters (input data) --> response includes JSON results
 AccessResponse response = offering.accessOneTime(accessParameters).get();
