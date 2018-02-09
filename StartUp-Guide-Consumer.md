@@ -13,7 +13,7 @@
 ### 2. Step: Create new Organization on Marketplace
 
 - The first time you login on the Marketplace with your account, you can create a new Organization 
-- Click on `New Organization` (bottom left)
+- Click on `New Organization` (see bottom left)
 - Enter a name for your new Organization
 
 ### 3. Step: Create new Consumer instance
@@ -27,11 +27,11 @@
 Create a new Offering Query
 - Click on `MyConsumers` and select your new Consumer instance
 - Click on `+OfferingQuery` and give your OfferingQuery a name
-- Define a semantic category
-- Optionally: define a region, a time period, a license, a price model, etc. 
+- Define a semantic _Category_ (and if applicable also sub-categories)
+- Optionally: define a _Region_, a _Time Period_, a _License_, a _Price_, etc. 
 - Save the OfferingQuery
-- Scroll down - to the bottom of your Offering Query. There you will see all matching Offerings
-  - Note: You might need to `refresh` your browser or `reload` the page to get the update
+- Scroll down - to the bottom of your OfferingQuery. There you will see all the matching Offerings
+  - NOTE: You might need to `refresh` your browser or `reload` the page to get the update
 - Explore the Offerings
 
 ### 5. Download Java Template Project
@@ -50,7 +50,7 @@ Create a new Offering Query
 
 Update your Consumer ID and Secret in the `example.properties` file (see route directory of the template project)
 
-NOTE: You can copy the Consumer ID and SECRET when you open your newly created Consumer instance on the Web Portal, and then click on `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard` (top right).
+NOTE: You can copy the Consumer ID and SECRET when you open your newly created Consumer instance on the Web Portal, and then click on `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard` (see top right).
 
 ### 8. Edit the Example Consumer Java application 
 
@@ -60,10 +60,9 @@ NOTE: You can copy the Consumer ID and SECRET when you open your newly created C
 consumer.subscribeByOfferingId("... include the Offering ID that you want to subscribe to and access ...").get();
 ```
 
-NOTE: You can copy an Offering ID when you open the Offering on the Web Portal, and then click on `Copy ID to Clipboard` (top right).
+NOTE: You can copy an Offering ID when you open the Offering on the Web Portal, and then click on `Copy ID to Clipboard` (see top right).
 
-
-### 9. Execute the Consumer application 
+### 9. Run the Consumer application 
 
 - From the command line: Use `./gradlew run` in the root directoy of the project
 - From Eclipse IDE: Go to `Run` -> `Run` and then select your consumer application
