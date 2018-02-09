@@ -16,13 +16,13 @@
 
 ## BIG IoT Marketplace 
 
-- **Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)**
-- **BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)**
+- **Public BIG IoT Marketplace** URI: [https://market.big-iot.org/](https://market.big-iot.org/)
+- **BCX Marketplace** URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)
 
 ## Startup Guides (with step-by-step instructions)
 
-- For a BIG IoT [Consumer application (Java)](/StartUp-Guide-Consumer.md)
-- For a BIG IoT [Provider application (Java)](/StartUp-Guide-Provider.md)
+- For a BIG IoT [**Consumer application** (Java)](/StartUp-Guide-Consumer.md)
+- For a BIG IoT [**Provider application** (Java)](/StartUp-Guide-Provider.md)
 
 ## Developer Guide 
 
