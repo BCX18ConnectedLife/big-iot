@@ -1,4 +1,4 @@
-# BIG IoT Example Code and Documentation
+# BIG IoT Documentation, Startup Guide and Example Code
 
 
 ## Why use BIG IoT?
@@ -9,7 +9,12 @@
       * Disclaimer: Charging and billing functionality is not yet implemented :smiley:
 2. The BIG IoT SDKs allow you to **offer and consume data** from other stakeholder **with a few lines of code** (see examples below).
 
-**Related technologies:**
+#### Overall Picture
+
+![BIG-IoT Overall Picture](BIG-IoT_OverallPicture.png)
+
+#### Related technologies:
+
 - Any data from IoT devicde connected to Bosch IoT Things can be directly offered on the BIG IoT Marketplace using the [Bosch Things-Marketplace Connector service]().
 - [FlowHub]() provides a ready to use building block to offer data from IoT devices (including those connected to the Bosch IoT Hub) on the Marketplace.
 
@@ -19,10 +24,12 @@
 - **Public BIG IoT Marketplace** URI: [https://market.big-iot.org/](https://market.big-iot.org/)
 - **BCX Marketplace** URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)
 
+
 ## Startup Guides (with step-by-step instructions)
 
 - For a BIG IoT [**Consumer application** (Java)](/StartUp-Guide-Consumer.md)
 - For a BIG IoT [**Provider application** (Java)](/StartUp-Guide-Provider.md)
+
 
 ## Developer Guide 
 
