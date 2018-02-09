@@ -19,7 +19,7 @@
 - [FlowHub]() provides a ready to use building block to offer data from IoT devices (including those connected to the Bosch IoT Hub) on the Marketplace.
 
 
-## BIG IoT Marketplace 
+## BIG IoT Marketplaces
 
 - **Public BIG IoT Marketplace** URI: [https://market.big-iot.org/](https://market.big-iot.org/)
 - **BCX Marketplace** URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)
@@ -33,7 +33,7 @@
 
 ## Developer Guide 
 
-**Java Example project for [download](https://github.com/BIG-IoT/example-projects):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradlew run`) or import it into your IDE.
+**Java Example project for [download](https://github.com/BCX18ConnectedLife/big-iot):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradlew run`) or import it into your IDE.
 
 ### How to develop a BIG IoT Consumer?
 
@@ -55,7 +55,6 @@ AccessResponse response = offering.accessOneTime(accessParameters).get();
 ```
 - **To get stated**, you can **use** our [**Java Example Consumer project**](https://github.com/BCX18ConnectedLife/big-iot/tree/master/java-template-consumer) **as template** for your own project. It is part of the [GitHub example project](https://github.com/BCX18ConnectedLife/big-iot) mentioned above and **contains everything** to get started!
 - A _detailed_ Java **developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
-
 
 ### How to develop a BIG IoT Provider?
 
