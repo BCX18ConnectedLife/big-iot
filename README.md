@@ -1,7 +1,5 @@
 # BIG IoT Example Code and Documentation
 
-This repository includes documentation and example code for using the BIG IoT Marketplace and SDK.
-
 
 ## Why use BIG IoT?
 
