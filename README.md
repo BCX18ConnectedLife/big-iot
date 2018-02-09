@@ -5,10 +5,10 @@ This repository includes documentation and example code for using the BIG IoT Ma
 
 ## Why use BIG IoT?
 
-1. The [BIG IoT Marketplace](https://market.big-iot.org/) gives you: ![logo](BIGIoTMarketplace_logo.png)
+1. The [BIG IoT Marketplace](https://market.big-iot.org/) gives you:
    * **easy access to many relevant data sources - see [here](https://github.com/BIG-IoT/BIG-IoT.github.io/blob/master/bcxDataOfferings.md)**
    * **allows you to monetize your data/results** (i.e. this could be part of your business model for your solution)
-      * Disclaimer: Charging and billing functionality is not yet implemented :smilie:
+      * Disclaimer: Charging and billing functionality is not yet implemented :smiley:
 2. The BIG IoT SDKs allow you to offer or consume data from other stakeholder **with a few lines of code** (see examples below).
 
 **Related technologies:**
