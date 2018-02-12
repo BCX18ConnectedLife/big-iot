@@ -47,15 +47,15 @@ Create a new Offering Query
 
 ### 7. Edit the Example Consumer Java application 
 
-- Open the Example Consumer Java source file: `./src/main/java/android/bigiot/org/androidexampleconsumer/MainActivity..java`
+- Open the Example Consumer Java source file: `./app/src/main/java/android/bigiot/org/androidexampleconsumer/MainActivity.java`
 
-- Update the Consumer ID and SECRET
+- Update the `CONSUMER_ID` and `CONSUMER_SECRET`
 
 NOTE: You can copy the Consumer ID and SECRET when you open your newly created Consumer instance on the Web Portal, and then click on `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard` (see top right).
 
 - Update the `Offering ID` here:
 ```java
-consumer.subscribeByTask("TestOrganization-TestProvider-RandomNumberOffering", this);
+consumer.subscribeByTask("... include your Offering ID here ...", this);
 ```
 
 NOTE: You can copy an Offering ID when you open the Offering on the Web Portal, and then click on `Copy ID to Clipboard` (see top right).
@@ -69,7 +69,8 @@ NOTE: You can copy an Offering ID when you open the Offering on the Web Portal, 
 
 ### How to develop a BIG IoT Consumer for Android?
 
-- A **_detailed_ developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
+- A **_general_ Java developer tutorial** for a Consumer can be found [here](https://big-iot.github.io/consumerPerspective/)
+  - _NOTE: The programming API for Android differs slightly from the Java example provided in this tutorial. See below for details._
 
 - **Simple Android Consumer Example for accessing a known Offering** (full example code is available [here](https://github.com/BCX18ConnectedLife/big-iot/blob/master/AndroidExampleConsumer/app/src/main/java/android/bigiot/org/androidexampleconsumer/MainActivity.java)):
 ```java
