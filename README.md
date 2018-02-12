@@ -29,11 +29,12 @@
 
 - For a BIG IoT [**Consumer application** (Java)](/StartUp-Guide-Consumer.md)
 - For a BIG IoT [**Provider application** (Java)](/StartUp-Guide-Provider.md)
+- For a BIG IoT [**Android Consumer application** (Java)](/StartUp-Guide-AndroidConsumer.md)
 
 
 ## Developer Guide 
 
-**Java Example project for [download](https://github.com/BCX18ConnectedLife/big-iot):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradlew run`) or import it into your IDE.
+**Java Example project for [download](https://github.com/BCX18ConnectedLife/big-iot):** This includes both, a BIG IoT Data Provider and Data Consumer project in Java, including all build files to build and run it direclty (`gradlew run`) or import it into your IDE. 
 
 ### How to develop a BIG IoT Consumer?
 
