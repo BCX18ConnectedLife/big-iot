@@ -5,8 +5,8 @@
 ### What you will need
 - Your Google or GitHub Account
 - a Browser
-- Your IDE (tested with Eclipse)
-- a Gradle Eclipse Plugin
+- Your IDE (we use Eclipse)
+- a Gradle Plugin for your IDE (we use buildship for Eclipse)
 - Git
 
 ### 1. Step: Login on Marketplace
