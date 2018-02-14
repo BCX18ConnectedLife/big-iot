@@ -3,17 +3,18 @@
 ## Step-by-step Instructions
 
 ### What you will need
-- Your Google or GitHub Account
-- a Browser (we use Chrome)
-- Your IDE (we use Eclipse)
-- a Gradle Plugin for your IDE (we use the [buildship for Eclipse-plugin](http://www.vogella.com/tutorials/EclipseGradle/article.html))
-- Git (we use Git-SCM, see here at [https://git-scm.com](https://git-scm.com/))
+- Basic Java experience
+- Git (e.g. Git-SCM, see here at [https://git-scm.com](https://git-scm.com/))
+- A Google or GitHub Account - to authenticate on the Marketplace 
+- An IDE for Java Development (e.g. Eclipse), or simply a text editor :similey:
 
 ### 1. Step: Login on Marketplace
 
 - Select the BIG IoT Marketplace you want to use:
-  - Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/) <-- Here you can browse and get our data and provide your Offerings. 
-  - Local BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/) <-- In case you have data you want to use only in the context of the BCX, offer it on this Marketplace. This is IP-Whitelisted only for the BCX.
+  - Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)
+    - Here you find our BIG IoT data Offerings. You can also provide your Offerings here.
+  - Local BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/) 
+    - Use this Marketplace in case you have data that you want to offer only in the context of the BCX. This is IP-Whitelisted to systems/environments only for the BCX.
 - Click on `Login`
 - You can use your GitHub or Google account to sign in
 
