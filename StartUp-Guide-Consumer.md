@@ -4,10 +4,10 @@
 
 ### What you will need
 - Your Google or GitHub Account
-- a Browser
+- a Browser (we use Chrome)
 - Your IDE (we use Eclipse)
-- a Gradle Plugin for your IDE (we use the buildship for Eclipse-[plugin](http://www.vogella.com/tutorials/EclipseGradle/article.html))
-- Git (we use Git-SCM, see on [git-scm.com](https://git-scm.com/))
+- a Gradle Plugin for your IDE (we use the [buildship for Eclipse-plugin](http://www.vogella.com/tutorials/EclipseGradle/article.html))
+- Git (we use Git-SCM, see here at [https://git-scm.com](https://git-scm.com/))
 
 ### 1. Step: Login on Marketplace
 
