@@ -6,8 +6,8 @@
 - Your Google or GitHub Account
 - a Browser
 - Your IDE (we use Eclipse)
-- a Gradle Plugin for your IDE (we use buildship for Eclipse)
-- Git
+- a Gradle Plugin for your IDE (we use the buildship for Eclipse-[plugin](http://www.vogella.com/tutorials/EclipseGradle/article.html))
+- Git (we use Git-SCM, see on [git-scm.com](https://git-scm.com/))
 
 ### 1. Step: Login on Marketplace
 
