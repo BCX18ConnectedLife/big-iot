@@ -6,7 +6,7 @@
 - Basic Java experience
 - Git (e.g. Git-SCM, see here at [https://git-scm.com](https://git-scm.com/))
 - A Google or GitHub Account - to authenticate on the Marketplace 
-- An IDE for Java Development (e.g. Eclipse), or simply a text editor :similey:
+- An IDE for Java Development (e.g. Eclipse), or simply a text editor :smiley:
 
 ### 1. Step: Login on Marketplace
 
