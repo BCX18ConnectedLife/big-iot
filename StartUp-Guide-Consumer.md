@@ -2,11 +2,18 @@
 
 ## Step-by-step Instructions
 
+### What you will need
+- Your Google or GitHub Account
+- a Browser
+- Your IDE (tested with Eclipse)
+- a Gradle Eclipse Plugin
+- Git
+
 ### 1. Step: Login on Marketplace
 
 - Select the BIG IoT Marketplace you want to use:
-  - Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/)
-  - BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/)
+  - Public BIG IoT Marketplace URI: [https://market.big-iot.org/](https://market.big-iot.org/) <-- Here you can browse and get our data and provide your Offerings. 
+  - Local BCX Marketplace URI: [https://market.internal-big-iot.org/](https://market.internal-big-iot.org/) <-- In case you have data you want to use only in the context of the BCX, offer it on this Marketplace. This is IP-Whitelisted only for the BCX.
 - Click on `Login`
 - You can use your GitHub or Google account to sign in
 
@@ -48,9 +55,9 @@ Create a new Offering Query
   
 ### 7. Update Properties Files 
 
-Update your Consumer ID and Secret in the `example.properties` file (see route directory of the template project)
+Update your Consumer ID and Secret in the `example.properties` file (see root directory of the template project)
 
-NOTE: You can copy the Consumer ID and SECRET when you open your newly created Consumer instance on the Web Portal, and then click on `Copy ID to Clipboard` and `Load Consumer Secret` followed by `Copy Secret to Clipbard` (see top right).
+NOTE: You can copy the Consumer ID and SECRET directly from the Marketplace Web Portal (e.g. https://market.big-iot.org/): Open it in the Browser, Log In and then click on `Copy ID to Clipboard` (see top right) for your Consumer ID or `Load Consumer Secret` followed by `Copy Secret to Clipbard` for your Consumer Secret.
 
 ### 8. Edit the Example Consumer Java application 
 
