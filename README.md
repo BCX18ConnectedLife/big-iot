@@ -15,7 +15,7 @@
 
 ### Related technologies:
 
-- Any data from IoT devicde connected to Bosch IoT Things can be directly offered on the BIG IoT Marketplace using the [Bosch Things-Marketplace Connector service]().
+- Any data from IoT devicde connected to Bosch IoT Things can be directly offered on the BIG IoT Marketplace using the [Bosch Things-Marketplace Connector service](https://github.com/BCX18ConnectedLife/BigIoT-to-Bosch-IoT-Suite/wiki).
 - [Flowhub](https://flowhub.io) provides ready to visual programming tools to offer data from IoT devices (including those connected to the Bosch IoT Hub) on the Marketplace. [Read more](https://bergie.iki.fi/blog/big-iot/)
 - [bigiot-js](https://github.com/flowhub/bigiot-js) is a JavaScript library for publishing and serving BIG IoT data offerings with Node.js
 
