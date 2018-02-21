@@ -30,7 +30,7 @@
 - For a BIG IoT [**Consumer application** (Java)](/StartUp-Guide-Consumer.md)
 - For a BIG IoT [**Provider application** (Java)](/StartUp-Guide-Provider.md)
 - For a BIG IoT [**Android Consumer application** (Java)](/StartUp-Guide-AndroidConsumer.md)
-- For a BIG IoT [**JavaScript Consumer application**](https://github.com/flowhub/bigiot-js/blob/master/example/consumer.js)
+- For a BIG IoT [**Node.js Consumer application** (JavaScript)](https://github.com/flowhub/bigiot-js/blob/master/example/consumer.js)
 
 ## Developer Guide 
 
