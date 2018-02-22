@@ -85,7 +85,7 @@ Further Java example applications for consumers and providers are available [her
 
 ### Download SDK
 
-Information on how to [download](https://big-iot.github.io/download/) and use our SDK directly in your porject is provided [here](https://big-iot.github.io/download/).
+Information on how to [download](https://big-iot.github.io/download/) and use our SDK directly in your porject is provided [here](https://big-iot.github.io/download/). 
 
 
 ## Background Information
